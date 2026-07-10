@@ -58,8 +58,8 @@ body, p, h1, h2, h3, h5, h4, h6 {
 .clear{ clear:both; }
 
 .content1366 {
-    margin: auto;
-    max-width: 1320px;
+    margin: 0 auto;
+    max-width: 1500px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -173,9 +173,13 @@ background-color: #141520b3;
 }
 .site-header{  }
 .columns_menu ul.menu li a {
-    font-size: 18px;font-weight: normal;
+    font-size: 20px;
+    font-weight: 500;
     color: #fff;
-}.get_columns_icn a, .banner_butonsy a, a.more_btn, a.arw_btn {
+    white-space: nowrap;
+}
+.get_columns_icn a { white-space: nowrap; }
+.get_columns_icn a, .banner_butonsy a, a.more_btn, a.arw_btn {
       font-size: 18px;
     color: #fff;font-weight: normal;
         position: relative;
@@ -272,6 +276,9 @@ a.menuVector_btn picture {
     margin: auto;
 }.banner_columns {
     padding: 210px 0 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }.baahead {
     background-color: #2C2427;
     border: solid 1px #575051;
@@ -311,7 +318,7 @@ a.menuVector_btn picture {
 .brap, .brap p{ font-size:18px; font-weight:normal; color:#fff; }
 
 .columns_logo img {
-    max-width: 80px;
+    max-width: 100px;
 }
 
 .banner_butonsy a i.fa, a.more_btn i, .arw_btn i{
@@ -2467,3 +2474,22 @@ display: none;
    
 }
 }/*1366px*/    
+/* Keep header on a single line between 1367px and 1599px
+   (20px menu + 100px logo need tighter gaps than the 1920px layout) */
+@media only screen and (min-width: 1367px) and (max-width: 1599px) {
+    .get_columns_icn, .columns_menu ul.menu {
+        gap: 12px;
+    }
+    .get_columns_icn {
+        padding: 0 0 0 12px;
+    }
+    .site-header-container > .displayflex_box {
+        padding: 15px 20px;
+    }
+    .get_columns_icn a, .banner_butonsy a, a.more_btn, a.arw_btn {
+        padding: 9px 16px;
+    }
+    .get_columns_icn a.lets_ai_btn {
+        padding: 11px 16px;
+    }
+}/*1367-1599px*/

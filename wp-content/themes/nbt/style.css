@@ -5549,3 +5549,143 @@ top: 10%;    margin: .5rem;
     left: 5px;
 }
 }
+/* =====================================================================
+   Single font family for the whole site (declared on body).
+   Jost is self-hosted in themes/nbt/fonts/, so no external font is added.
+   Icon fonts (FontAwesome / glyphicon) are excluded so icons still render.
+   ===================================================================== */
+@font-face {
+    font-family: 'Jost';
+    src: url('fonts/Jost-Light.woff2') format('woff2'),
+         url('fonts/Jost-Light.woff') format('woff'),
+         url('fonts/Jost-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url('fonts/Jost-Regular.woff2') format('woff2'),
+         url('fonts/Jost-Regular.woff') format('woff'),
+         url('fonts/Jost-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url('fonts/Jost-Medium.woff2') format('woff2'),
+         url('fonts/Jost-Medium.woff') format('woff'),
+         url('fonts/Jost-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url('fonts/Jost-Bold.woff2') format('woff2'),
+         url('fonts/Jost-Bold.woff') format('woff'),
+         url('fonts/Jost-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+body *:not([class*="fa-"]):not(.fa):not(.fas):not(.far):not(.fab):not(.fal):not(.fad):not(.glyphicon):not(svg):not(path):not(use) {
+    font-family: 'Jost', sans-serif !important;
+}
+
+/* =====================================================================
+   Site-wide header (same header as the main page on every page).
+   All rules are scoped to header.site-header / .site-header-container
+   so nothing leaks into page content.
+   ===================================================================== */
+.site-header-container { z-index: 9; position: fixed; width: 100%; }
+.site-header-container > .displayflex_box { padding: 15px 40px; }
+.site-header-container.strickld { background-color: #141520b3; }
+
+/* On every page except the home page, show it as a solid bar in normal
+   flow: white nav stays readable and no page content is hidden under it. */
+body:not(.home) .site-header-container { position: relative; background-color: #141520; }
+
+header.site-header .columns_logo img { max-width: 100px; height: auto; }
+header.site-header .columns_menu ul.menu li a {
+    font-size: 20px; font-weight: 500; color: #fff; white-space: nowrap; text-decoration: none;
+}
+header.site-header .get_columns_icn,
+header.site-header .columns_menu ul.menu { display: flex; gap: 20px; align-items: center; }
+header.site-header .columns_menu ul.menu { list-style: none; margin: 0; padding: 0; }
+header.site-header .columns_menu ul.menu li { margin: 0; padding: 0; }
+header.site-header .get_columns_icn { padding: 0 0 0 30px; }
+header.site-header .get_columns { position: relative; }
+
+header.site-header .get_columns_icn a {
+    white-space: nowrap; font-size: 18px; color: #fff; font-weight: normal;
+    position: relative; display: inline-flex; align-items: center; gap: 8px;
+    padding: 9px 22px; text-decoration: none; border: solid 2px #fff;
+    border-radius: 10px; appearance: none; z-index: 2;
+}
+header.site-header .get_columns_icn a:hover { background-color: #F85508; border: solid 2px #F85508; transform: scale(1.05); }
+header.site-header .get_columns_icn a.get_a_qute_btn { background-color: #F85508; border: solid 2px #F85508; }
+header.site-header .get_columns_icn a.lets_ai_btn { border: solid 2px #ffffff00; padding: 11px 22px; }
+header.site-header .get_columns_icn a.lets_ai_btn:hover { background-color: transparent; border: solid 2px #ffffff00; transform: inherit; }
+header.site-header .get_columns_icn a.lets_ai_btn::after {
+    --m-i: linear-gradient(#000, #000);
+    --m-o: content-box, padding-box;
+    content: ""; position: absolute; inset: 0; padding: 3px; border-radius: 10px;
+    background-image: conic-gradient(#488cfb,#29dbbc,#ddf505,#ff9f0e,#e440bb,#655adc,#488cfb);
+    -webkit-mask-image: var(--m-i), var(--m-i); mask-image: var(--m-i), var(--m-i);
+    -webkit-mask-origin: var(--m-o); mask-origin: var(--m-o);
+    -webkit-mask-clip: var(--m-o); mask-clip: var(--m-o);
+    -webkit-mask-composite: xor; mask-composite: exclude;
+    animation: rotate-hue 1.5s linear infinite;
+}
+header.site-header .get_columns_icn a.phone_call_btn,
+header.site-header .get_columns_icn a.menuVector_btn {
+    background-color: #5939A6; border: solid 1px #8043FF; padding: 0; width: 45px; height: 46px;
+}
+header.site-header .get_columns_icn a.phone_call_btn img,
+header.site-header .get_columns_icn a.menuVector_btn img { margin: auto; }
+@keyframes rotate-hue { from { filter: hue-rotate(0deg); } to { filter: hue-rotate(360deg); } }
+
+@media only screen and (min-width: 1367px) and (max-width: 1599px) {
+    header.site-header .get_columns_icn,
+    header.site-header .columns_menu ul.menu { gap: 12px; }
+    header.site-header .get_columns_icn { padding: 0 0 0 12px; }
+    .site-header-container > .displayflex_box { padding: 15px 20px; }
+    header.site-header .get_columns_icn a { padding: 9px 16px; }
+    header.site-header .get_columns_icn a.lets_ai_btn { padding: 11px 16px; }
+}
+@media only screen and (min-width: 1150px) and (max-width: 1366px) {
+    header.site-header .get_columns_icn,
+    header.site-header .columns_menu ul.menu { gap: 10px; }
+    header.site-header .get_columns_icn { padding: 0 0 0 10px; }
+    header.site-header .get_columns_icn a { padding: 9px 15px; }
+    header.site-header .get_columns_icn a.lets_ai_btn { padding: 11px 15px; }
+}
+
+/* header layout helpers (scoped so page content is untouched) */
+header.site-header .displayflex_box {
+    gap: 15px; display: flex; flex-direction: row; flex-wrap: nowrap;
+    justify-content: space-between; align-items: center;
+}
+header.site-header .displayflex_box_end {
+    display: flex; flex-direction: row; flex-wrap: nowrap;
+    justify-content: flex-end; align-items: center;
+}
+header.site-header .nbt-call-inquiry {
+    position: absolute; width: 370px; display: none; text-align: left;
+    right: 0; top: 50px; z-index: 1;
+}
+header.site-header .nbt-call-inquiry.lefthover { display: block; }
+header.site-header .call-inquiry_inner {
+    margin: 5px 0 0 0; padding: 25px; line-height: 35px; background: #fff;
+    border-radius: 20px; box-shadow: 0 0 30px 0 rgb(0 0 0 / 30%);
+}
+header.site-header ul.sub-menu { display: none; }
+body:not(.home) .site-header-container { position: relative !important; top: auto !important; background-color: #141520; }
+body:not(.home) header.site-header { position: relative; display: block; }
+body:not(.home) header.site-header .toggledymoon { display: none; }
