@@ -5699,6 +5699,8 @@ body:not(.home) header.site-header {
     top: 0 !important;
     z-index: 999;
     display: block;
-    background-color: #141520;
+    /* translucent, so page content shows through on scroll -
+       same treatment as the home page header (.strickld) */
+    background-color: #141520b3;
 }
 body:not(.home) header.site-header .toggledymoon { display: none; }
