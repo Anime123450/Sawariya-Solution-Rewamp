@@ -5607,9 +5607,8 @@ body *:not([class*="fa-"]):not(.fa):not(.fas):not(.far):not(.fab):not(.fal):not(
 .site-header-container > .displayflex_box { padding: 15px 40px; }
 .site-header-container.strickld { background-color: #141520b3; }
 
-/* On every page except the home page, show it as a solid bar in normal
-   flow: white nav stays readable and no page content is hidden under it. */
-body:not(.home) .site-header-container { position: relative; background-color: #141520; }
+/* Sub-page header styling is defined further down (the <header> element is
+   made sticky there, so it stays pinned while scrolling). */
 
 header.site-header .columns_logo img { max-width: 100px; height: auto; }
 header.site-header .columns_menu ul.menu li a {
@@ -5686,6 +5685,20 @@ header.site-header .call-inquiry_inner {
     border-radius: 20px; box-shadow: 0 0 30px 0 rgb(0 0 0 / 30%);
 }
 header.site-header ul.sub-menu { display: none; }
-body:not(.home) .site-header-container { position: relative !important; top: auto !important; background-color: #141520; }
-body:not(.home) header.site-header { position: relative; display: block; }
+/* Sub-pages: keep the header pinned on scroll.
+   The header lives inside a header-only wrapper (.dhw-off); `display: contents`
+   dissolves that wrapper's box so the header's containing block becomes <body>
+   (the page-tall scroll root), which is what `position: sticky` needs to pin
+   across the whole page. Pages without the wrapper already have <body> as the
+   header's parent, so the same sticky rule works there too. */
+body:not(.home) .wrapper.dhw-off { display: contents; }
+body:not(.home) .site-header-container { position: relative !important; top: auto !important; background-color: transparent; }
+body:not(.home) header.site-header {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 999;
+    display: block;
+    background-color: #141520;
+}
 body:not(.home) header.site-header .toggledymoon { display: none; }
