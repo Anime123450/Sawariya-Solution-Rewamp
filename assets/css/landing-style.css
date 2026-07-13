@@ -68,7 +68,7 @@ a:hover {
 
 
 .best_awarded_outer {
-    background: url(../mobappdevimg/awarded-bg.jpg);
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/mobappdevimg/awarded-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 52px 0 32px 0;
@@ -105,7 +105,7 @@ a:hover {
 
 /**development_services**/
 
-.development_services_outer { background:url(../img/development-services-bg.jpg); background-repeat:no-repeat; background-size:cover;
+.development_services_outer { background:url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/development-services-bg.jpg); background-repeat:no-repeat; background-size:cover;
     width: 100%;
     display: inline-block;
     padding: 52px 0 24% 0;
@@ -186,7 +186,7 @@ a:hover {
 }
 /**business_help **/
 
-.business_help { background:url(../img/buness-help-bg.jpg); background-repeat:no-repeat; background-size:100%; padding: 55px 0;}
+.business_help { background:url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/buness-help-bg.jpg); background-repeat:no-repeat; background-size:100%; padding: 55px 0;}
 
 .business_help_inner {
     display: inline-block;
@@ -442,7 +442,7 @@ a:hover {
     max-width: unset;
 }
 
-.cmsframework_outer { background:url(../img/cms-fremework.jpg) no-repeat; background-size:cover; padding: 52px 0 44px 0px;}
+.cmsframework_outer { background:url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/cms-fremework.jpg) no-repeat; background-size:cover; padding: 52px 0 44px 0px;}
 
 .cmsframework_inner h2 {
     color: #fff;
@@ -534,7 +534,7 @@ a:hover {
 }
 
 .healthcare_fitness_contantbox {
-    background: url(../img/fineces-fast.png);
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/fineces-fast.png);
     display: inline-block;
     width: 24%;
     background-repeat: no-repeat;
@@ -556,7 +556,7 @@ a:hover {
 /*****/
 
 .studies_outer {
-    background: url(../img/studies-bg.jpg) no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/studies-bg.jpg) no-repeat;
     background-size: cover;
     padding: 52px 0 6% 0;
 }
@@ -757,7 +757,7 @@ a:hover {
     background-color: transparent;
     border: 0;
     text-indent: -1111px;
-    background-image: url(../img/upload.svg);
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/upload.svg);
     background-repeat: no-repeat;
 }
 

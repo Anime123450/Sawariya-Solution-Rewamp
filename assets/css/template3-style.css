@@ -1,8 +1,7 @@
-
 body{  margin: 0; color:#111111;
 	   font-size: 14px;
 	padding: 0;
-	font-family: roboto;
+	 font-family: 'Roboto', sans-serif;
 }
 
 * { margin:0; padding:0;}
@@ -18,7 +17,7 @@ p {
 }
 a {
 	outline: 0;
-	color: #000;
+	color: #1e90ff;
 	text-decoration: none;
 }
 ul li, ol li {
@@ -44,11 +43,6 @@ a:hover {
 
 }
 
-.mobile_app_development_color p a {
-    color: #072743;
-    font-weight: 600;
-}
-
 
 .featurs_inner {
     margin: auto;
@@ -57,12 +51,12 @@ a:hover {
 }
 
 .heading_div h2 {
+	font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 38px;
-    font-family: roboto;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 10px;
-    color: #2b3849;
+    color: #2b3849;text-transform: uppercase;
 }
 
 .heading_div {
@@ -96,12 +90,12 @@ a:hover {
 
 .features_div1 li a {
     text-decoration: none;
-    color: #072743;
+    color: #333;
     font-size: 20px;
 }
 
 .features_div1 ul {
-    padding-top: 90px;
+    margin-top: 90px;
     display: inline-block;
 }
 
@@ -110,8 +104,7 @@ a:hover {
 .reliable_div {
     width: 100%;
     display: inline-block;
-    background: #fafafa;
-    margin: 70px 0 0 0px;
+    padding: 70px 0 0 0px;
 }
 
 .reliable_inner {
@@ -128,8 +121,8 @@ a:hover {
 .box1 span {
     display: inline-block;
     margin: 10px 0;
-    width: 100%;
-    color: #333333;
+    width: 100%;  
+	color: #333333;
 }
 
 .box5 {
@@ -157,6 +150,7 @@ a:hover {
     margin-top: 3.5em;
 }
 .app_aenefits h2 {
+	font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 38px;
     color: #333;
@@ -169,27 +163,19 @@ a:hover {
 }
 .aenefits_text {
     display: inline-block;
-    width: 44%;
+    width: 32%;
     vertical-align: top;
 }
-.benefits_outer {
-    background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2019/08/border_show_inner.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.aenefits_icon img {
-    padding-top: 34px;
-}
 .aenefits_img {
-    display: none;
-    width: 19%;
+    display: inline-block;
+    width: 40%;
     vertical-align: top;
     text-align: center;
 }
 .aenefits_icon {
     display: inline-block;
     text-align: center;
-    width: 55%;
+    width: 24%;
 }
 .aenefits_text h3 {
     font-size: 24px;
@@ -233,10 +219,9 @@ a:hover {
     outline: 0;
 }
 .expertise_full {
-    background-color: #fafafa;
+    background-color: #092741;
     width: 100%;
-    padding: 38px 0 0px 0;
-    margin: 70px 0 0px 0;
+    padding: 52px 0 25px 0px;
 }
 .technologies_img {
     display: inline-block;
@@ -264,12 +249,13 @@ a:hover {
     float: left;
     border: none;
     cursor: pointer;
-    padding: 14px 22px;
-    transition: 0.3s;
+    padding: 14px 47px;
+    transition: .3s;
     font-size: 22px;
     font-weight: 300;
     color: #333;
-    background: none;
+    background: 0 0;
+ 
 }
 
 
@@ -285,9 +271,11 @@ a:hover {
 }
 .technologies_tab-tabcontent {
     display: none;
+	width:100%;
     padding: 0px 0 0 0;
     background: #fff;
     border: 1px solid #eaeaea;
+	    padding-bottom: 22px;
 }
 
 .technologies_tab-tabcontent p {
@@ -307,9 +295,11 @@ a:hover {
 
 .expertise_heading h2 {
     font-size: 38px;
-    font-weight: 400;
-    color: #333;
-	padding-bottom:25px;
+	font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 25px;
+    text-transform: uppercase;
 }
 
 /***my-css**/
@@ -320,7 +310,7 @@ a:hover {
     text-align: center;
 }
 .overview_bg {
-    background: url(../mobappdevimg/our-view-bg.jpg);
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/mobappdevimg/our-view-bg.jpg);
     align-items: center;
     padding: 110px 0 220px 0;
     position: relative;
@@ -341,9 +331,9 @@ a:hover {
 }
 
 .centered_img_outer_two_border {
-    background: url(../mobappdevimg/border-mobile.png);
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/mobappdevimg/border-mobile.png);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 81%;
     background-position: center 1%;
     z-index: 999;
 }
@@ -378,8 +368,8 @@ a:hover {
     text-align: center;
 }
 
-.web_app_outer {
-    padding-bottom: 32px;
+.web_app_outer { padding:52px 0;
+    background-color: #f8f9fa;
 }
 
 
@@ -395,9 +385,11 @@ a:hover {
     font-size: 38px;
     text-align: center;
     color: #333333;
-    font-weight: 400;
+    font-weight: bold;
     margin: 0;
-    padding-bottom: 52px;
+    padding-bottom: 52px; 
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
 }
 
 .other_outer_inner_box_fast {
@@ -456,6 +448,7 @@ a:hover {
 }
 .after_developmentouter_heading h2 {
      font-size: 38px;
+	 font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #333333;
     font-weight: 400;
@@ -509,19 +502,22 @@ a:hover {
 }
 
 .other_speaks_outer_full {
-    background-color: #fafafa;
+    background-color: #f3f4f6;
     padding: 52px 0 62px 0;
 }
 
 
 .other_speaks_heding h2 {
+    font-family: 'Oswald',sans-serif;
     font-size: 38px;
     text-align: center;
-    color: #333333;
-    font-weight: 400;
+    color: #333;
+    font-weight: bold;
     margin: 0;
     padding-bottom: 14px;
+    text-transform: uppercase;
 }
+
 .other_speaks_heding p {
     text-align: center;
     font-size: 18px;
@@ -567,12 +563,10 @@ a:hover {
 
 
 .best_awarded_outer {
-    background: url(../mobappdevimg/awarded-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 52px 0 32px 0;
 }
 .best_awarded_inner h2 {
+	font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #333333;   
 	font-size: 38px;
@@ -696,11 +690,13 @@ a:hover {
 }
 
 
+/******/
 
 
 .web_app_inner h2 {
+	font-family: 'Oswald', sans-serif;
     text-align: center;
-    font-size: 36px;
+    font-size: 36px;text-transform: uppercase;
 }
 
 .web_app_inner .quote_sec {
@@ -745,12 +741,42 @@ a:hover {
 }
 
 
+/***change-pages-sec**/
+
+.full_div {
+    display: none;
+}
+
+.benefits_div {
+    display: none;
+}
+
+.overview_outer {
+    display: none;
+}
+
+
+.after_developmentouter_full {
+    display: none;
+}
+
+.head-title-inner {
+    font-weight: bold;
+}
+.content-area {
+    padding: 0;
+
+}
+
+
+
+
 /****/
 
 
-.page-template-template_mobile_app_development.page-id-4947 .footerinfo .widgetoxenu {
-    min-height: 230px;
-}
+
+
+
 
 
 

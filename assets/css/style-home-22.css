@@ -381,7 +381,7 @@ font-size: 18px;
     float: left;
     margin: 0 1%;
 }.clients_project {    padding: 25px 0;
-       background-image: url(imagesmay2022/clients_projectbg.jpg);
+       background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/imagesmay2022/clients_projectbg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

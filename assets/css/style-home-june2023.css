@@ -6,11 +6,11 @@ body{
 }
 @font-face {
     font-family: 'Proxima Nova Alt Rg';
-    src: url('fonts/ProximaNovaA-Regular.eot');
-    src: url('fonts/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/ProximaNovaA-Regular.woff2') format('woff2'),
-        url('fonts/ProximaNovaA-Regular.woff') format('woff'),
-        url('fonts/ProximaNovaA-Regular.ttf') format('truetype');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.eot');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.woff') format('woff'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,7 +18,7 @@ body{
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url(fonts/fontawesome-webfont.eot) format("embedded-opentype"), url(fonts/fontawesome-webfont.woff2) format("woff2"), url(fonts/fontawesome-webfont.woff) format("woff"), url(fonts/fontawesome-webfont.ttf) format("truetype"), url(fonts/fontawesome-webfont.svg) format("svg");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.eot) format("embedded-opentype"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.woff) format("woff"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.ttf) format("truetype"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.svg) format("svg");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
@@ -1588,7 +1588,7 @@ background: transparent;
 }
 .our_servics_list ul li .our_servics_hover6:hover img {
 /*    content: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2023/07/Our-Services-icon-6.png);*/
-content: url(images/aigroupho.png); 
+content: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/aigroupho.png); 
 }
 .stricklyfixed .toogle-icon-mu {
     color: #000;

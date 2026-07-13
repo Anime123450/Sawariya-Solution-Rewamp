@@ -11,86 +11,86 @@ body {
 }
 @font-face {
     font-family: 'SF UI Display';
-    src: url('fonts/SFUIDisplay-Light.woff2') format('woff2'),
-        url('fonts/SFUIDisplay-Light.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SFUIDisplay-Light.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SFUIDisplay-Light.woff') format('woff');
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: 'SF UI Display';
-    src: url('fonts/SFUIDisplay-Semibold.woff2') format('woff2'),
-        url('fonts/SFUIDisplay-Semibold.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SFUIDisplay-Semibold.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SFUIDisplay-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'robotobold';
-    src: url(roboto-bold-webfont.woff2) format("woff2"), url(roboto-bold-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/roboto-bold-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/roboto-bold-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: fallback;
 }
 @font-face {
     font-family: 'robotolight';
-    src: url(fonts/roboto-light-webfont.woff2) format("woff2"), url(fonts/roboto-light-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/roboto-light-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/roboto-light-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 
 }
 @font-face {
     font-family: 'robotoregular';
-    src: url(fonts/roboto-regular-webfont.woff2) format("woff2"), url(fonts/roboto-regular-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/roboto-regular-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/roboto-regular-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
 @font-face {
     font-family: 'robotothin';
-    src: url(fonts/roboto-thin-webfont.woff2) format("woff2"), url(fonts/roboto-thin-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/roboto-thin-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/roboto-thin-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
 @font-face {
     font-family: 'open_sansbold';
-    src: url(fonts/opensans-bold-webfont.woff2) format("woff2"), url(fonts/opensans-bold-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-bold-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-bold-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
 @font-face {
     font-family: 'open_sansitalic';
-    src: url(fonts/opensans-italic-webfont.woff2) format("woff2"), url(fonts/opensans-italic-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-italic-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-italic-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
 @font-face {
     font-family: 'open_sanslight';
-    src: url(fonts/opensans-light-webfont.woff2) format("woff2"), url(fonts/opensans-light-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-light-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-light-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
 @font-face {
     font-family: 'open_sansregular';
-    src: url(fonts/opensans-regular-webfont.woff2) format("woff2"), url(fonts/opensans-regular-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-regular-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-regular-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
 @font-face {
     font-family: 'open_sanssemibold';
-    src: url(fonts/opensans-semibold-webfont.woff2) format("woff2"), url(fonts/opensans-semibold-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-semibold-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/opensans-semibold-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
 @font-face {
     font-family: 'FontAwesome';
-    /*src: url(fonts/fontawesome-webfont.eot?v=4.7.0);*/
-    src: url(fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
+    /*src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.eot?v=4.7.0);*/
+    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/Roboto-Black.woff2') format('woff2'),
-        url('fonts/Roboto-Black.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Black.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -98,8 +98,8 @@ body {
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/Roboto-Bold.woff2') format('woff2'),
-        url('fonts/Roboto-Bold.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Bold.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -107,8 +107,8 @@ body {
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/Roboto-Light.woff2') format('woff2'),
-        url('fonts/Roboto-Light.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Light.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -116,8 +116,8 @@ body {
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
-        url('fonts/Roboto-Regular.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -125,8 +125,8 @@ body {
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/Roboto-Thin.woff2') format('woff2'),
-        url('fonts/Roboto-Thin.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Thin.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -134,8 +134,8 @@ body {
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/Roboto-Medium.woff2') format('woff2'),
-        url('fonts/Roboto-Medium.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Roboto-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -143,8 +143,8 @@ body {
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-Light.woff2') format('woff2'),
-        url('fonts/SourceSansPro-Light.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-Light.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -152,8 +152,8 @@ body {
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-Black.woff2') format('woff2'),
-        url('fonts/SourceSansPro-Black.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-Black.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -161,8 +161,8 @@ body {
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
-        url('fonts/SourceSansPro-SemiBold.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -170,8 +170,8 @@ body {
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-ExtraLight.woff2') format('woff2'),
-        url('fonts/SourceSansPro-ExtraLight.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-ExtraLight.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -179,8 +179,8 @@ body {
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-Bold.woff2') format('woff2'),
-        url('fonts/SourceSansPro-Bold.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-Bold.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -188,8 +188,8 @@ body {
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-Regular.woff2') format('woff2'),
-        url('fonts/SourceSansPro-Regular.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/SourceSansPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -197,8 +197,8 @@ body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins-Bold.woff2') format('woff2'),
-        url('fonts/Poppins-Bold.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Bold.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -206,8 +206,8 @@ body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins-ExtraLight.woff2') format('woff2'),
-        url('fonts/Poppins-ExtraLight.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-ExtraLight.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -215,8 +215,8 @@ body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins-ExtraBold.woff2') format('woff2'),
-        url('fonts/Poppins-ExtraBold.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -224,8 +224,8 @@ body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins-Black.woff2') format('woff2'),
-        url('fonts/Poppins-Black.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Black.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -233,8 +233,8 @@ body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins-Light.woff2') format('woff2'),
-        url('fonts/Poppins-Light.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Light.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -242,8 +242,8 @@ body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins-Regular.woff2') format('woff2'),
-        url('fonts/Poppins-Regular.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -251,8 +251,8 @@ body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins-Thin.woff2') format('woff2'),
-        url('fonts/Poppins-Thin.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Thin.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -260,8 +260,8 @@ body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins-Medium.woff2') format('woff2'),
-        url('fonts/Poppins-Medium.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Medium.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -269,20 +269,20 @@ body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins-SemiBold.woff2') format('woff2'),
-        url('fonts/Poppins-SemiBold.woff') format('woff');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Poppins-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-Regular.eot');
-    src: url('fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Inter-Regular.woff2') format('woff2'),
-        url('fonts/Inter-Regular.woff') format('woff'),
-        url('fonts/Inter-Regular.ttf') format('truetype'),
-        url('fonts/Inter-Regular.svg#Inter-Regular') format('svg');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Inter-Regular.eot');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Inter-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Inter-Regular.woff') format('woff'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Inter-Regular.ttf') format('truetype'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Inter-Regular.svg#Inter-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -854,10 +854,10 @@ ul.ifo-social li a {
     text-align: center
 }
 .owl-prev {
-    background: rgba(0,0,0,0) url(images/owl-prev.png) no-repeat
+    background: rgba(0,0,0,0) url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/owl-prev.png) no-repeat
 }
 .owl-next {
-    background: rgba(0,0,0,0) url(images/owl-next.png) no-repeat
+    background: rgba(0,0,0,0) url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/owl-next.png) no-repeat
 }
 .bitem-image {
     float: left;
@@ -928,7 +928,7 @@ ul.ifo-social li a {
     color: #fdb619
 }
 .repeat-cont figure span {
-    background: rgba(0,0,0,0) url(images/statistics_icons.png) no-repeat scroll left top;
+    background: rgba(0,0,0,0) url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/statistics_icons.png) no-repeat scroll left top;
     float: left;
     height: 82px;
     width: 82px
@@ -1114,7 +1114,7 @@ color: #212529;
     padding: 15px
 }
 .form-group input[type="text"], .form-group input[type="email"], .form-group input[type="tel"], .form-group select {
-    background: #fff url(images/inputtex-bg.png) no-repeat scroll 0 0;
+    background: #fff url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/inputtex-bg.png) no-repeat scroll 0 0;
     border: 1px solid #dbdbdb;
     border-radius: 6px;
     box-shadow: none;
@@ -1144,7 +1144,7 @@ color: #212529;
 }
 .form-group .input-group-textarea textarea { 
   height: 100px;
-    background: #fff url(images/inputtex-bg.png) no-repeat scroll 8px -140px;
+    background: #fff url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/inputtex-bg.png) no-repeat scroll 8px -140px;
     border: 1px solid #dbdbdb;
     padding: 12px 0 0 13%;
     width: 86%;
@@ -1153,7 +1153,7 @@ color: #212529;
 }
 .form-btn-grop .submit-btn {
     cursor: pointer;
-    background: rgba(0,0,0,0) url(images/hove-btn.png) no-repeat scroll right -5px;
+    background: rgba(0,0,0,0) url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/hove-btn.png) no-repeat scroll right -5px;
     border: 2px solid #0d3d65;
     border-radius: 0;
     color: #0d3d65;
@@ -1166,7 +1166,7 @@ color: #212529;
 }.submit_button_contact .qbutton{
   background-color: #f85508;
   cursor: pointer;
-  background-image: url(images/banner_form_btn.png);
+  background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/banner_form_btn.png);
   background-repeat: no-repeat;
   background-position: 110px 3px;
   border: 2px solid #f85508; 
@@ -1716,7 +1716,7 @@ border: 1px solid #e4e4e4;
     max-width: 1500px;
     margin: auto;
     width: 95%;
-}.section-new-web-development{/*background: #fff url(images/bg-rpt.png) repeat-x ;padding: 0 0 5% 0;*/   background: linear-gradient(0deg, #fff 50%, #F0EDE5 50%);
+}.section-new-web-development{/*background: #fff url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/bg-rpt.png) repeat-x ;padding: 0 0 5% 0;*/   background: linear-gradient(0deg, #fff 50%, #F0EDE5 50%);
     padding: 0 0 5%;}
 .head_row_new-web {
 max-width: 940px;
@@ -1755,7 +1755,7 @@ max-width: 940px;
 }.web_outer_left {
     float: left;
     width: 57.5%;
-    background-image: url(images/bg-left-devyu.png);
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/bg-left-devyu.png);
     background-repeat: no-repeat;
     
 }
@@ -2157,7 +2157,7 @@ font-weight: 600;
 .column1 i.fa.fa-envelope-o {
     color: #0b3e66;
 }
-.section-gbg-box {/*background-image: url(images/152765bg56.jpg);
+.section-gbg-box {/*background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/152765bg56.jpg);
     background-repeat: no-repeat;
     background-size: cover;*/
         background: #0d3d65;
@@ -2444,19 +2444,19 @@ a.btn_hire_button:hover{background-color: #0d3d65;} .resume_hire_block-actions {
     text-transform: uppercase;
 }
 .ry1viw{     width: 18px; display:inline-block;
-    background: url(images/reviewsss.png) no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/reviewsss.png) no-repeat;
     height: 15px;}
 .ry2viw{ width: 38px;display:inline-block;
-    background: url(images/reviewsss.png) no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/reviewsss.png) no-repeat;
     height: 15px;}
 .ry3viw{ width: 55px;display:inline-block;
-    background: url(images/reviewsss.png) no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/reviewsss.png) no-repeat;
     height: 15px;}
 .ry4viw{width: 72px;display:inline-block;
-    background: url(images/reviewsss.png) no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/reviewsss.png) no-repeat;
     height: 15px;}
 .ry5viw{     width: 92px;display:inline-block;
-    background: url(images/reviewsss.png) no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/reviewsss.png) no-repeat;
     height: 15px;
 }.iox-rew {
     font-size: 1.1em;
@@ -3647,7 +3647,7 @@ header#masthead .container_row {
     top: 0;
     width: 32px;
     height: 32px;
-    background-image: url(images/pyflag-icons.png);
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/pyflag-icons.png);
     background-repeat: no-repeat;
 }
 
@@ -3725,7 +3725,7 @@ header#masthead .container_row {
     top: 0;
     width: 32px;
     height: 32px;
-  /*  background-image: url(images/pyflag-icons.png);
+  /*  background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/pyflag-icons.png);
     background-repeat: no-repeat;*/
 }
 
@@ -3742,14 +3742,14 @@ header#masthead .container_row {
 }
 
 .nbt-info-inquiry-mobile .nbt-info-inquiry .inqtyop a:nth-child(1) {
-    background-image: url(images/phonec.png);background-repeat: no-repeat;
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/phonec.png);background-repeat: no-repeat;
     
 }
 .nbt-info-inquiry-mobile .nbt-info-inquiry .inqtyop a:nth-child(2) {
-    background-image: url(images/teamsm.png);background-repeat: no-repeat;
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/teamsm.png);background-repeat: no-repeat;
 }
 .nbt-info-inquiry-mobile .nbt-info-inquiry .inqtyop a:nth-child(3), .nbt-info-inquiry-mobile .nbt-info-inquiry .inqtyophp a:nth-child(1) {
-    background-image: url(images/emailc.png);background-repeat: no-repeat;
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/emailc.png);background-repeat: no-repeat;
 }
 
 
@@ -4127,35 +4127,35 @@ padding: 0px 2% !important;
     top: 53px;
     right: 28px;
   
-    background: url(images2022/close.svg) no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images2022/close.svg) no-repeat;
     
 }.ui-ux-graphics-mode-outer {
-    background-image: url(images/1bg.png);
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/1bg.png);
     border-radius: 40px;
     background-size: cover;
     background-repeat: no-repeat;
 }.game-unity-mode-outer {
-    background-image: url(images/2bg.png);
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/2bg.png);
     border-radius: 40px;
     background-size: cover;
     background-repeat: no-repeat;
 }.mobile-aap-mode-outer {
-    background-image: url(images/3bg.png);
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/3bg.png);
     border-radius: 40px;
     background-size: cover;
     background-repeat: no-repeat;
 }.web-dev-mode-outer {
-    background-image: url(images/4bg.png);
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/4bg.png);
     border-radius: 40px;
     background-size: cover;
     background-repeat: no-repeat;
 }.cloud-computing-mode-outer {
-    background-image: url(images/5bg.png);
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/5bg.png);
     border-radius: 40px;
     background-size: cover;
     background-repeat: no-repeat;
-}.section_project_discuss_mode{ background-image: url(images/3bg.png);      background-position: center, center; background-size: cover;  background-repeat: no-repeat; }  
-.section-ondemand_solutions_mode{ background-image: url(images/repet.jpg);    padding: 5% 0;  background-size: cover;  background-repeat: no-repeat; } 
+}.section_project_discuss_mode{ background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/3bg.png);      background-position: center, center; background-size: cover;  background-repeat: no-repeat; }  
+.section-ondemand_solutions_mode{ background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/repet.jpg);    padding: 5% 0;  background-size: cover;  background-repeat: no-repeat; } 
 
 .page-template-template_our_services_may2022-php .site-header, .single .site-header, .page-template-template_our_solutions .site-header, .single .site-header{
     border-bottom: solid 1px #3333331f;
@@ -4287,7 +4287,7 @@ width: 150px;
     content: "";
     width: 60px;
     height: 60px;
-    background-image: url(images/games.png);
+    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/games.png);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -5556,36 +5556,36 @@ top: 10%;    margin: .5rem;
    ===================================================================== */
 @font-face {
     font-family: 'Jost';
-    src: url('fonts/Jost-Light.woff2') format('woff2'),
-         url('fonts/Jost-Light.woff') format('woff'),
-         url('fonts/Jost-Light.ttf') format('truetype');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Light.woff2') format('woff2'),
+         url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Light.woff') format('woff'),
+         url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Jost';
-    src: url('fonts/Jost-Regular.woff2') format('woff2'),
-         url('fonts/Jost-Regular.woff') format('woff'),
-         url('fonts/Jost-Regular.ttf') format('truetype');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Regular.woff2') format('woff2'),
+         url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Regular.woff') format('woff'),
+         url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Jost';
-    src: url('fonts/Jost-Medium.woff2') format('woff2'),
-         url('fonts/Jost-Medium.woff') format('woff'),
-         url('fonts/Jost-Medium.ttf') format('truetype');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Medium.woff2') format('woff2'),
+         url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Medium.woff') format('woff'),
+         url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Jost';
-    src: url('fonts/Jost-Bold.woff2') format('woff2'),
-         url('fonts/Jost-Bold.woff') format('woff'),
-         url('fonts/Jost-Bold.ttf') format('truetype');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Bold.woff2') format('woff2'),
+         url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Bold.woff') format('woff'),
+         url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Jost-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;

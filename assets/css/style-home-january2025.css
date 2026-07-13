@@ -6,12 +6,12 @@ body{
 }
 @font-face {
     font-family: 'Manrope';
-    src: url('fonts/Manrope-Regular.eot');
-    src: url('fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Manrope-Regular.woff2') format('woff2'),
-        url('fonts/Manrope-Regular.woff') format('woff'),
-        url('fonts/Manrope-Regular.ttf') format('truetype'),
-        url('fonts/Manrope-Regular.svg#Manrope-Regular') format('svg');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.eot');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.woff') format('woff'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.ttf') format('truetype'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.svg#Manrope-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -19,12 +19,12 @@ body{
 
 @font-face {
     font-family: 'Sora';
-    src: url('fonts/Sora-Regular.eot');
-    src: url('fonts/Sora-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Sora-Regular.woff2') format('woff2'),
-        url('fonts/Sora-Regular.woff') format('woff'),
-        url('fonts/Sora-Regular.ttf') format('truetype'),
-        url('fonts/Sora-Regular.svg#Sora-Regular') format('svg');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.eot');
+    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.woff') format('woff'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.ttf') format('truetype'),
+        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.svg#Sora-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -34,7 +34,7 @@ body{
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("fonts/webfonts/fa-regular-400.woff2") format("woff2"), url("fonts/webfonts/fa-regular-400.ttf") format("truetype"); }
+  src: url("/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/webfonts/fa-regular-400.woff2") format("woff2"), url("/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/webfonts/fa-regular-400.ttf") format("truetype"); }
 
 .far,
 .fa-regular {
@@ -462,7 +462,7 @@ header.site-header.stricklyfixed {
 
 /*.why_nbt_project_left h6, .about_nbt_right h6,*/
  h6.borline { 
-  background-image: url(images/rectangleline.png);
+  background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/rectangleline.png);
     background-repeat: no-repeat;
     padding: 0 0 0 70px;
     background-position: 0 13px;
@@ -470,7 +470,7 @@ header.site-header.stricklyfixed {
     font-size: 16px;
 }
 .our_service_outr h6, .our_testimonials_outr h6, .inquirys_form_info h6{
-      background-image: url(images/rectanglewite.png);
+      background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/rectanglewite.png);
     background-repeat: no-repeat;
     padding: 0 0 0 70px; color: #fff;
     background-position: 0 13px;
@@ -749,7 +749,7 @@ color: #333333;
     display: none;
 }
 .footer_infoy{
-  background-image: url(images/footerbg2025.png);
+  background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/footerbg2025.png);
     background-repeat: no-repeat;
 background-size: cover;
     width: 100%;
@@ -1588,7 +1588,7 @@ padding: 0 0 15px 70px;
     font-family: 'Sora';
     font-weight: 500;
         background-position: 0px 16px;
-     background-image: url(images/rectangleline.png);
+     background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/rectangleline.png);
     background-repeat: no-repeat;
 }.nbt-call-inquiry .inqry-blck-nbt {
 
@@ -1628,11 +1628,11 @@ padding: 0 0 15px 70px;
 }
 
 .inqry-blck-nbt a.flag-icn2:before {
-background-image: url(images/phonec.png);
+background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/phonec.png);
 }.inqry-blck-nbt a.skypey:before {
-background-image: url(images/teamsm.png);
+background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/teamsm.png);
 }.inqry-blck-nbt a.enve:before, .hr-team-bx a.enve:before {
-background-image: url(images/emailc.png);
+background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/emailc.png);
 }
 
 
