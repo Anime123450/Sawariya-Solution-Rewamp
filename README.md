@@ -57,16 +57,10 @@ Some of the things I focused on while building it:
 Sawariya-Solution-Rewamp/
 ├── index.html                 # Home page
 ├── 404.html                   # Custom 404 page
-├── about-us/                  # About page
-├── services/                  # Services overview
-├── contact-us/                # Contact page
-├── case-study/                # Case studies
-├── blog/                      # Blog
-├── ...                        # service & technology landing pages
 │
-├── assets/
-│   ├── css/                   # all stylesheets
-│   ├── js/                    # all scripts (jQuery, sliders, etc.)
+├── assets/                    # all front-end assets
+│   ├── css/                   # stylesheets
+│   ├── js/                    # scripts (jQuery, sliders, etc.)
 │   ├── fonts/
 │   │   ├── jost/              # Jost webfont (self-hosted)
 │   │   └── fontawesome/       # Font Awesome webfonts
@@ -76,6 +70,14 @@ Sawariya-Solution-Rewamp/
 │   ├── files/                 # favicon & downloadable files
 │   └── vendor/                # third-party libraries
 │
+├── pages/                     # every inner page (one folder each)
+│   ├── about-us/
+│   ├── services/
+│   ├── contact-us/
+│   ├── case-study/
+│   ├── blog/
+│   └── ...                    # service & technology landing pages
+│
 ├── components/                # reusable header & footer partials
 ├── .github/workflows/         # (optional) GitHub Actions deploy
 ├── favicon.ico                # site favicon (peacock mark)
@@ -83,10 +85,11 @@ Sawariya-Solution-Rewamp/
 └── README.md
 ```
 
-All front-end assets live under `assets/` (stylesheets, scripts, fonts, images
-and third-party libraries), which keeps the project clean and easy to navigate.
-
-Each page lives in its own folder with an `index.html`, which gives clean URLs like `/about-us/` and `/services/`.
+The project root stays tidy — just four folders (`assets/`, `pages/`,
+`components/`, `.github/`) plus the home page and a couple of config files.
+All front-end assets live under `assets/`, and every inner page lives in its
+own folder under `pages/` (each with an `index.html`, giving clean URLs like
+`/pages/about-us/` and `/pages/services/`).
 
 ## 🚀 Running it locally
 
@@ -118,13 +121,13 @@ The site is deployed with **GitHub Pages** from the `main` branch (root folder).
 | Page | Path |
 |------|------|
 | Home | `/` |
-| About Us | `/about-us/` |
-| Services | `/services/` |
-| Case Studies | `/case-study/` |
-| Blog | `/blog/` |
-| Contact | `/contact-us/` |
+| About Us | `/pages/about-us/` |
+| Services | `/pages/services/` |
+| Case Studies | `/pages/case-study/` |
+| Blog | `/pages/blog/` |
+| Contact | `/pages/contact-us/` |
 
-...along with a large set of individual service and technology landing pages.
+...along with a large set of individual service and technology landing pages under `pages/`.
 
 ## 🙏 Acknowledgements
 
