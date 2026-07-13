@@ -173,7 +173,7 @@ a:hover {
     vertical-align: top;
 }
 .benefits_outer {
-    background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2019/08/border_show_inner.png);
+    background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2019/08/border_show_inner.png);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -320,7 +320,7 @@ a:hover {
     text-align: center;
 }
 .overview_bg {
-    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/mobappdevimg/our-view-bg.jpg);
+    background: url(/Sawariya-Solution-Rewamp/assets/images/theme/mobappdevimg/our-view-bg.jpg);
     align-items: center;
     padding: 110px 0 220px 0;
     position: relative;
@@ -341,7 +341,7 @@ a:hover {
 }
 
 .centered_img_outer_two_border {
-    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/mobappdevimg/border-mobile.png);
+    background: url(/Sawariya-Solution-Rewamp/assets/images/theme/mobappdevimg/border-mobile.png);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center 1%;
@@ -567,7 +567,7 @@ a:hover {
 
 
 .best_awarded_outer {
-    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/mobappdevimg/awarded-bg.jpg);
+    background: url(/Sawariya-Solution-Rewamp/assets/images/theme/mobappdevimg/awarded-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 52px 0 32px 0;

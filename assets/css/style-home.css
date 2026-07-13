@@ -209,7 +209,7 @@ content: '';
 
 .site-header.f-nav .menu-nbt ul li.hidedek a {
       line-height: 42px;
-    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/recosvered-recovered.gif);
+    background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/recosvered-recovered.gif);
 background-size: cover;
     color: #fff;
     padding: 0!important;
@@ -436,7 +436,7 @@ li#hireuss {
     padding: 25px 0;
 }
 .footerinfo {
-    background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2019/10/bg02.jpeg);
+    background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2019/10/bg02.jpeg);
     padding: 6% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -654,7 +654,7 @@ ul.nbt_servicess_box li > a {
 .certificates_wraper {
    
     padding: 70px 0px 0 0px;
-   background: #3f4ea7 url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/br_provider_shapebg.png) no-repeat bottom;
+   background: #3f4ea7 url(/Sawariya-Solution-Rewamp/assets/images/theme/images/br_provider_shapebg.png) no-repeat bottom;
     padding-bottom: 0px;
     background-size: contain;
 }
@@ -1204,7 +1204,7 @@ a.btn-blg {
     content: ""; 
     width: 10px;
     height: 8px;
-    background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2019/10/sprite-icon.png) 0 -167px no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2019/10/sprite-icon.png) 0 -167px no-repeat;
     display: inline-block;
     background-size: 100%;
     margin-left: 7px;
@@ -1216,7 +1216,7 @@ a.btn-blg {
     content: ""; 
     width: 10px;
     height: 8px;
-    background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2019/10/sprite-icon.png) 0 -144px no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2019/10/sprite-icon.png) 0 -144px no-repeat;
     display: inline-block;
     background-size: 100%;
     margin-left: 7px;
@@ -1396,7 +1396,7 @@ ul>li>.sub-menu-wrap>ul.sub-menu>li>.sub-menu-wrap {
 .sub-menu-wrap {margin-top: 34px;}
 
 .menu-nbt ul li .sub-menu-wrap>ul>li>a:before {
-    background-image: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/07/header_nav_menu_bg.png);
+    background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/07/header_nav_menu_bg.png);
 }
 .sub-menu-wrap-banner {
   max-width: 1150px;
@@ -1437,15 +1437,15 @@ ul>li>.sub-menu-wrap>ul.sub-menu>li>.sub-menu-wrap {
 }
 
 
-.icon-whowe-are { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/who-we-are-new-bg.png);}
+.icon-whowe-are { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/who-we-are-new-bg.png);}
 
-.icon-our-prcess {background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/our-process-new-bg.png);}
+.icon-our-prcess {background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/our-process-new-bg.png);}
 
-.iconm-blog { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/blog-new-bg.png);}
+.iconm-blog { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/blog-new-bg.png);}
 
-.iconm-trending { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/07/trending-back.png);}
+.iconm-trending { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/07/trending-back.png);}
 
-/*.iconm-industries { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/industries-new-bg.png);}
+/*.iconm-industries { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/industries-new-bg.png);}
 */
 
 .icon-web-devmnt .sub-menu-wrap > ul.sub-menu, .icom-cms-dvmnt .sub-menu-wrap > ul.sub-menu, .icon-web-dsgn .sub-menu-wrap > ul.sub-menu, .icon-mob-dvmnt .sub-menu-wrap > ul.sub-menu, 
@@ -1453,15 +1453,15 @@ ul>li>.sub-menu-wrap>ul.sub-menu>li>.sub-menu-wrap {
   background-color: transparent;
 }
 
-.icon-web-devmnt { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/web-development-bg.png);}
+.icon-web-devmnt { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/web-development-bg.png);}
 
-.icom-cms-dvmnt { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/cms-bg.png);}
+.icom-cms-dvmnt { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/cms-bg.png);}
 
-.icon-web-dsgn { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/web-design-bg.png);}
+.icon-web-dsgn { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/web-design-bg.png);}
 
-.icon-mob-dvmnt { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/mobile-development-bg.png);}
+.icon-mob-dvmnt { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/mobile-development-bg.png);}
 
-.icon-othr-srves { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/other-services-bg.png);}
+.icon-othr-srves { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/other-services-bg.png);}
 
 
 .icon-web-aplcton, .icon-mob-aplcton, .icon-wb-dsgn, .icon-trndg, .icon-othr-srvs, .icon-mo-ap-slon, .icon-entpse-slo, .icon-wb-sln, .icon-slonm, .icon-trdng-slon {
@@ -1481,15 +1481,15 @@ ul>li>.sub-menu-wrap>ul.sub-menu>li>.sub-menu-wrap {
 }
 
 
-.icon-web-aplcton { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/web-application-bg.png);}
+.icon-web-aplcton { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/web-application-bg.png);}
 
-.icon-mob-aplcton { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/mobile-application-bg.png);}
+.icon-mob-aplcton { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/mobile-application-bg.png);}
 
-.icon-wb-dsgn { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/website-design-bg.png);}
+.icon-wb-dsgn { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/website-design-bg.png);}
 
-.icon-trndg { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/tranding-services-bg.png);}
+.icon-trndg { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/tranding-services-bg.png);}
 
-.icon-othr-srvs { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/other-services-bg-1.png);}
+.icon-othr-srvs { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/other-services-bg-1.png);}
 
 
 
@@ -1500,15 +1500,15 @@ ul>li>.sub-menu-wrap>ul.sub-menu>li>.sub-menu-wrap {
 
 
 
-.icon-mo-ap-slon { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/mobile-app-solution-bg.png);}
+.icon-mo-ap-slon { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/mobile-app-solution-bg.png);}
 
-.icon-entpse-slo { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/Enterprise-Solutions-bg.png);}
+.icon-entpse-slo { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/Enterprise-Solutions-bg.png);}
 
-.icon-wb-sln { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/web-solution-bg.png);}
+.icon-wb-sln { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/web-solution-bg.png);}
 
-.icon-slonm { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/other-solution-bg.png);}
+.icon-slonm { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/other-solution-bg.png);}
 
-.icon-trdng-slon { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/tranding-solution-bg-1.png);}
+.icon-trdng-slon { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/tranding-solution-bg-1.png);}
 
 
 .frameworks-icon-m, .mobile-m-icon, .cms-icon-m, .open-source-icon, .icon-trdg-slutn {
@@ -1528,15 +1528,15 @@ ul>li>.sub-menu-wrap>ul.sub-menu>li>.sub-menu-wrap {
 }
 
 
-.frameworks-icon-m { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/web-developer-bg.png);}
+.frameworks-icon-m { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/web-developer-bg.png);}
 
-.mobile-m-icon { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/app-developer-bg.png);}
+.mobile-m-icon { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/app-developer-bg.png);}
 
-.cms-icon-m { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/CMS-Developer-bg.png);}
+.cms-icon-m { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/CMS-Developer-bg.png);}
 
-.open-source-icon { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/OpenSource-Developer-bg.png);}
+.open-source-icon { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/OpenSource-Developer-bg.png);}
 
-.icon-trdg-slutn { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2021/05/tranding-solution-bg.png);}
+.icon-trdg-slutn { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2021/05/tranding-solution-bg.png);}
 
 
 body .grecaptcha-badge {
@@ -1689,7 +1689,7 @@ li#hireuss {  margin-right: 4px;}
 
 .new_btns {  padding: 8px 0; width: 45%; text-align: center;margin-bottom: 10px;}
 
-/*.head-banner { background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2019/10/mobile-bg.jpg) !important;}
+/*.head-banner { background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2019/10/mobile-bg.jpg) !important;}
 */
 
 .left-tittle { float: unset; width: 100%; text-align: center;padding-top: 0px;}

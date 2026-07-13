@@ -117,7 +117,7 @@ ul {
 .leverage_development {     background: #f3f4f6;
     padding: 5% 0 5% 0; }
 
-/*.reasons_development { background:url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/Reasons-banner.jpg)l; background-repeat:no-repeat;*/
+/*.reasons_development { background:url(/Sawariya-Solution-Rewamp/assets/images/theme/img/Reasons-banner.jpg)l; background-repeat:no-repeat;*/
 
 
 .reasons_development {
@@ -402,7 +402,7 @@ ul {
 /**************/
 
 .web_services_companies {
-    /* background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/web_services-bg.jpg) no-repeat; */
+    /* background: url(/Sawariya-Solution-Rewamp/assets/images/theme/img/web_services-bg.jpg) no-repeat; */
     padding: 6% 0;
     background-size: cover;
     background-color: #f3f4f6;
@@ -557,7 +557,7 @@ ul {
 
 
 .recommend_testimonail {
-    background: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/Reasons-banner.jpg) no-repeat;
+    background: url(/Sawariya-Solution-Rewamp/assets/images/theme/img/Reasons-banner.jpg) no-repeat;
     padding: 6% 0;
     background-size: cover;
 }
@@ -747,7 +747,7 @@ ul {
     background-color: transparent;
     border: 0;
     text-indent: -1111px;
-    background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/img/upload.svg);
+    background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/img/upload.svg);
     background-repeat: no-repeat;
 }
 

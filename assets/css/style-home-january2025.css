@@ -304,7 +304,7 @@ color: #fff;
     position: absolute;
     left: 0;z-index: 1;
     top: 45%;
-    background: url(/Sawariya-Solution-Rewamp/wp-content/uploads/2025/01/arrow.png);
+    background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2025/01/arrow.png);
     width: 70px;
     height: 145px;
     border: 0;
@@ -462,7 +462,7 @@ header.site-header.stricklyfixed {
 
 /*.why_nbt_project_left h6, .about_nbt_right h6,*/
  h6.borline { 
-  background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/rectangleline.png);
+  background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/rectangleline.png);
     background-repeat: no-repeat;
     padding: 0 0 0 70px;
     background-position: 0 13px;
@@ -470,7 +470,7 @@ header.site-header.stricklyfixed {
     font-size: 16px;
 }
 .our_service_outr h6, .our_testimonials_outr h6, .inquirys_form_info h6{
-      background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/rectanglewite.png);
+      background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/rectanglewite.png);
     background-repeat: no-repeat;
     padding: 0 0 0 70px; color: #fff;
     background-position: 0 13px;
@@ -749,7 +749,7 @@ color: #333333;
     display: none;
 }
 .footer_infoy{
-  background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/footerbg2025.png);
+  background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/footerbg2025.png);
     background-repeat: no-repeat;
 background-size: cover;
     width: 100%;
@@ -1588,7 +1588,7 @@ padding: 0 0 15px 70px;
     font-family: 'Sora';
     font-weight: 500;
         background-position: 0px 16px;
-     background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/rectangleline.png);
+     background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/rectangleline.png);
     background-repeat: no-repeat;
 }.nbt-call-inquiry .inqry-blck-nbt {
 
@@ -1628,11 +1628,11 @@ padding: 0 0 15px 70px;
 }
 
 .inqry-blck-nbt a.flag-icn2:before {
-background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/phonec.png);
+background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/phonec.png);
 }.inqry-blck-nbt a.skypey:before {
-background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/teamsm.png);
+background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/teamsm.png);
 }.inqry-blck-nbt a.enve:before, .hr-team-bx a.enve:before {
-background-image: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/images/emailc.png);
+background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/emailc.png);
 }
 
 
