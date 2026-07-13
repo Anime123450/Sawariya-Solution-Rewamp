@@ -6,31 +6,31 @@
 	font-style: normal;
 	font-weight: bold;
 	font-display: auto;
-	src: url('/Sawariya-Solution-Rewamp/wp-content/uploads/2024/12/ProximaNovaA-Bold.woff2') format('woff2'),
-		url('/Sawariya-Solution-Rewamp/wp-content/uploads/2024/12/ProximaNovaA-Bold.woff') format('woff');
+	src: url('/Sawariya-Solution-Rewamp/assets/images/uploads/2024/12/ProximaNovaA-Bold.woff2') format('woff2'),
+		url('/Sawariya-Solution-Rewamp/assets/images/uploads/2024/12/ProximaNovaA-Bold.woff') format('woff');
 }
 @font-face {
 	font-family: 'Proxima Nova Alt';
 	font-style: normal;
 	font-weight: 400;
 	font-display: auto;
-	src: url('/Sawariya-Solution-Rewamp/wp-content/uploads/2024/12/ProximaNovaA-Regular.woff2') format('woff2'),
-		url('/Sawariya-Solution-Rewamp/wp-content/uploads/2024/12/ProximaNovaA-Regular.woff') format('woff');
+	src: url('/Sawariya-Solution-Rewamp/assets/images/uploads/2024/12/ProximaNovaA-Regular.woff2') format('woff2'),
+		url('/Sawariya-Solution-Rewamp/assets/images/uploads/2024/12/ProximaNovaA-Regular.woff') format('woff');
 }
 @font-face {
 	font-family: 'Proxima Nova Alt';
 	font-style: normal;
 	font-weight: 500;
 	font-display: auto;
-	src: url('/Sawariya-Solution-Rewamp/wp-content/uploads/2024/12/ProximaNovaA-Light.woff2') format('woff2'),
-		url('/Sawariya-Solution-Rewamp/wp-content/uploads/2024/12/ProximaNovaA-Light.woff') format('woff');
+	src: url('/Sawariya-Solution-Rewamp/assets/images/uploads/2024/12/ProximaNovaA-Light.woff2') format('woff2'),
+		url('/Sawariya-Solution-Rewamp/assets/images/uploads/2024/12/ProximaNovaA-Light.woff') format('woff');
 }
 @font-face {
 	font-family: 'Proxima Nova Alt';
 	font-style: normal;
 	font-weight: 900;
 	font-display: auto;
-	src: url('/Sawariya-Solution-Rewamp/wp-content/uploads/2024/12/ProximaNovaA-Extrabld.woff2') format('woff2'),
-		url('/Sawariya-Solution-Rewamp/wp-content/uploads/2024/12/ProximaNovaA-Extrabld.woff') format('woff');
+	src: url('/Sawariya-Solution-Rewamp/assets/images/uploads/2024/12/ProximaNovaA-Extrabld.woff2') format('woff2'),
+		url('/Sawariya-Solution-Rewamp/assets/images/uploads/2024/12/ProximaNovaA-Extrabld.woff') format('woff');
 }
 /* End Custom Fonts CSS */

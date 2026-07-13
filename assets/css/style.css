@@ -25,7 +25,7 @@ body {
 }
 @font-face {
     font-family: 'robotobold';
-    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/roboto-bold-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/roboto-bold-webfont.woff) format("woff");
+    src: url(/Sawariya-Solution-Rewamp/assets/fonts/jost/roboto-bold-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/assets/fonts/jost/roboto-bold-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: fallback;
