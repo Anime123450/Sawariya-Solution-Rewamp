@@ -56,19 +56,35 @@ Some of the things I focused on while building it:
 ```
 Sawariya-Solution-Rewamp/
 ├── index.html                 # Home page
+├── 404.html                   # Custom 404 page
 ├── about-us/                  # About page
 ├── services/                  # Services overview
 ├── contact-us/                # Contact page
 ├── case-study/                # Case studies
 ├── blog/                      # Blog
 ├── ...                        # service & technology landing pages
-├── wp-content/
-│   ├── themes/nbt/            # CSS, JavaScript and fonts
-│   └── uploads/               # images, logo and media
+│
+├── assets/
+│   ├── css/                   # all stylesheets
+│   ├── js/                    # all scripts (jQuery, sliders, etc.)
+│   ├── fonts/
+│   │   ├── jost/              # Jost webfont (self-hosted)
+│   │   └── fontawesome/       # Font Awesome webfonts
+│   ├── images/
+│   │   ├── uploads/           # site images, logo & media
+│   │   └── theme/             # theme graphics
+│   ├── files/                 # favicon & downloadable files
+│   └── vendor/                # third-party libraries
+│
+├── components/                # reusable header & footer partials
+├── .github/workflows/         # (optional) GitHub Actions deploy
 ├── favicon.ico                # site favicon (peacock mark)
 ├── site.webmanifest           # PWA / web app manifest
 └── README.md
 ```
+
+All front-end assets live under `assets/` (stylesheets, scripts, fonts, images
+and third-party libraries), which keeps the project clean and easy to navigate.
 
 Each page lives in its own folder with an `index.html`, which gives clean URLs like `/about-us/` and `/services/`.
 
