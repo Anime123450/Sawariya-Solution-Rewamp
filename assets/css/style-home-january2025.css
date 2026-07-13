@@ -6,12 +6,12 @@ body{
 }
 @font-face {
     font-family: 'Manrope';
-    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.eot');
-    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.woff2') format('woff2'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.woff') format('woff'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.ttf') format('truetype'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Manrope-Regular.svg#Manrope-Regular') format('svg');
+    src: url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Manrope-Regular.eot');
+    src: url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Manrope-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Manrope-Regular.woff') format('woff'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Manrope-Regular.ttf') format('truetype'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Manrope-Regular.svg#Manrope-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -19,12 +19,12 @@ body{
 
 @font-face {
     font-family: 'Sora';
-    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.eot');
-    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.woff2') format('woff2'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.woff') format('woff'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.ttf') format('truetype'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/Sora-Regular.svg#Sora-Regular') format('svg');
+    src: url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Sora-Regular.eot');
+    src: url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Sora-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Sora-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Sora-Regular.woff') format('woff'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Sora-Regular.ttf') format('truetype'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/Sora-Regular.svg#Sora-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -34,7 +34,7 @@ body{
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/webfonts/fa-regular-400.woff2") format("woff2"), url("/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/webfonts/fa-regular-400.ttf") format("truetype"); }
+  src: url("/Sawariya-Solution-Rewamp/assets/fonts/fontawesome/fa-regular-400.woff2") format("woff2"), url("/Sawariya-Solution-Rewamp/assets/fonts/fontawesome/fa-regular-400.ttf") format("truetype"); }
 
 .far,
 .fa-regular {

@@ -6,11 +6,11 @@ body{
 }
 @font-face {
     font-family: 'Proxima Nova Alt Rg';
-    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.eot');
-    src: url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.woff2') format('woff2'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.woff') format('woff'),
-        url('/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/ProximaNovaA-Regular.ttf') format('truetype');
+    src: url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.eot');
+    src: url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.woff2') format('woff2'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.woff') format('woff'),
+        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,7 +18,7 @@ body{
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.eot) format("embedded-opentype"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.woff) format("woff"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.ttf) format("truetype"), url(/Sawariya-Solution-Rewamp/wp-content/themes/nbt/fonts/fontawesome-webfont.svg) format("svg");
+    src: url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.eot) format("embedded-opentype"), url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.woff) format("woff"), url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.ttf) format("truetype"), url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.svg) format("svg");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
