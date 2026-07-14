@@ -93,24 +93,26 @@ own folder under `pages/` (each with an `index.html`, giving clean URLs like
 
 ## 🚀 Running it locally
 
-The easiest way to see it is the **[live link](https://anime123450.github.io/Sawariya-Solution-Rewamp/)**.
-
-To run it on your own machine, the internal paths are set up for the `/Sawariya-Solution-Rewamp/` base, so serve it from the **parent** of the project folder:
+All paths in the site are **relative**, so it runs anywhere — just serve the
+folder with any static server:
 
 ```bash
-# 1. clone the repo (keep the folder name as-is)
+# 1. clone the repo
 git clone https://github.com/Anime123450/Sawariya-Solution-Rewamp.git
+cd Sawariya-Solution-Rewamp
 
-# 2. from the folder that CONTAINS Sawariya-Solution-Rewamp, start any static server, e.g.
+# 2. start any static server from inside the folder
 python -m http.server 8000
 #   or:  npx serve
 #   or:  php -S localhost:8000
 
 # 3. open
-http://localhost:8000/Sawariya-Solution-Rewamp/
+http://localhost:8000/
 ```
 
-> Tip: opening `index.html` straight from the file system won't load the styles, because the site uses absolute paths — it needs to be served over `http://`.
+> Tip: use a local server rather than opening `index.html` directly from the
+> file system — browsers block some resources on `file://`, so it needs
+> `http://` to load everything correctly.
 
 ## 🌐 Deployment
 
