@@ -381,7 +381,7 @@ font-size: 18px;
     float: left;
     margin: 0 1%;
 }.clients_project {    padding: 25px 0;
-       background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/imagesmay2022/clients_projectbg.jpg);
+       background-image: url(../../assets/images/theme/imagesmay2022/clients_projectbg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -785,7 +785,7 @@ a.why_nbt {
  display: block !important;}
 .here_dav_comanpage .award_certificate_section{}
 .here_dav_comanpage  {
-/*background: linear-gradient(rgb(1 1 1 / 42%), rgb(23 23 23 / 61%)), url(/Sawariya-Solution-Rewamp/assets/images/uploads/2022/02/award_bg-new3.jpg) center center no-repeat !important;*/
+/*background: linear-gradient(rgb(1 1 1 / 42%), rgb(23 23 23 / 61%)), url(../../assets/images/uploads/2022/02/award_bg-new3.jpg) center center no-repeat !important;*/
   } 
 .here_dav_comanpage .engagement_img {
     padding: 120px 0 0 0;
@@ -1044,7 +1044,7 @@ p {
     display: table-cell;
     width: 30%;
     vertical-align: middle;
-    background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2022/01/clientback11.png);
+    background-image: url(../../assets/images/uploads/2022/01/clientback11.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1201,7 +1201,7 @@ a.custom_btn_css {
     padding: 0;
     display: inline-block;
     width: 100%;
-    background: url(/Sawariya-Solution-Rewamp/assets/images/theme/images2022/footer_bg.jpg);
+    background: url(../../assets/images/theme/images2022/footer_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1327,7 +1327,7 @@ a.custom_btn_css {
     padding: 0;
     display: inline-block;
     width: 100%;
-    background: url(/Sawariya-Solution-Rewamp/assets/images/theme/images2022/form_bg.jpg);
+    background: url(../../assets/images/theme/images2022/form_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1491,7 +1491,7 @@ a.custom_btn_css {
 }
 input.cstm_form_btn {
     cursor: pointer;
-    background: url(/Sawariya-Solution-Rewamp/assets/images/theme/images2022/button_icon.png);
+    background: url(../../assets/images/theme/images2022/button_icon.png);
     border: 0;
     color: #fff;
     font-size: 16px;
@@ -1508,7 +1508,7 @@ input.cstm_form_btn {
     padding: 0;
     display: inline-block;
     width: 100%;
-    background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2022/01/frameworkbg.jpg);
+    background: url(../../assets/images/uploads/2022/01/frameworkbg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1772,7 +1772,7 @@ input.cstm_form_btn {
     padding: 0;
     display: table;
     width: 100%;
-    background: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2022/01/mobile_bg.png);
+    background: url(../../assets/images/uploads/2022/01/mobile_bg.png);
     border-radius: 20px;
     background-repeat: no-repeat;
     background-position: center;
@@ -2071,7 +2071,7 @@ button.slick-next.slick-arrow:after {
 }.clients_project .container_row {
   max-width: 1000px;
 }.cont-nub-ys {
-background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/imagesmay2022/iconbgcount.jpg);
+background-image: url(../../assets/images/theme/imagesmay2022/iconbgcount.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 height: 75px;

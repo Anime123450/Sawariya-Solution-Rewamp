@@ -6,11 +6,11 @@ body{
 }
 @font-face {
     font-family: 'Proxima Nova Alt Rg';
-    src: url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.eot');
-    src: url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.woff2') format('woff2'),
-        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.woff') format('woff'),
-        url('/Sawariya-Solution-Rewamp/assets/fonts/jost/ProximaNovaA-Regular.ttf') format('truetype');
+    src: url('../../assets/fonts/jost/ProximaNovaA-Regular.eot');
+    src: url('../../assets/fonts/jost/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/jost/ProximaNovaA-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/jost/ProximaNovaA-Regular.woff') format('woff'),
+        url('../../assets/fonts/jost/ProximaNovaA-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,7 +18,7 @@ body{
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.eot) format("embedded-opentype"), url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.woff2) format("woff2"), url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.woff) format("woff"), url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.ttf) format("truetype"), url(/Sawariya-Solution-Rewamp/assets/fonts/jost/fontawesome-webfont.svg) format("svg");
+    src: url(../../assets/fonts/jost/fontawesome-webfont.eot) format("embedded-opentype"), url(../../assets/fonts/jost/fontawesome-webfont.woff2) format("woff2"), url(../../assets/fonts/jost/fontawesome-webfont.woff) format("woff"), url(../../assets/fonts/jost/fontawesome-webfont.ttf) format("truetype"), url(../../assets/fonts/jost/fontawesome-webfont.svg) format("svg");
     font-weight: 400;
     font-style: normal;font-display: fallback;
 }
@@ -81,7 +81,7 @@ header.site-header.stricklyfixed {
 }
 
 .banner_home_june2023:before{
-    background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2024/07/shape-051.webp); 
+    background-image: url(../../assets/images/uploads/2024/07/shape-051.webp); 
     background-repeat: no-repeat;
      height: 175px;
     position: absolute;
@@ -91,7 +91,7 @@ header.site-header.stricklyfixed {
     bottom: 40px;
 } 
 .banner_home_june2023:after{
-    background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2024/07/shape-131.webp); 
+    background-image: url(../../assets/images/uploads/2024/07/shape-131.webp); 
     background-repeat: no-repeat;
      height: 175px;
     position: absolute;
@@ -373,7 +373,7 @@ color: #fff;
     top: 0;
     width: 32px;
     height: 32px;
-    background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/pyflag-icons.png);
+    background-image: url(../../assets/images/theme/images/pyflag-icons.png);
     background-repeat: no-repeat;
 }
 .inqry-blck-nbt a.skypey:before {
@@ -541,7 +541,7 @@ height: 102px;
 }.client_logos_section {
     position: relative;    margin: -55px 0 0 0;
 }.client_tringle {
-background-image: url(/Sawariya-Solution-Rewamp/assets/images/theme/images2023/client_tringle.png);
+background-image: url(../../assets/images/theme/images2023/client_tringle.png);
     background-repeat: no-repeat;
     height: 35px;
     position: absolute;
@@ -569,7 +569,7 @@ font-weight: 300;
 line-height: 30px;
 }
 .completed_project_list ul li {
-background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Rectangle-projet.png.webp);
+background-image: url(../../assets/images/uploads/2023/07/Rectangle-projet.png.webp);
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: top;
@@ -603,7 +603,7 @@ background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Re
     padding: 4% 0 5% 0;
 }
 .our_service_section{
-background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Our-Services-bg.png.webp);
+background-image: url(../../assets/images/uploads/2023/07/Our-Services-bg.png.webp);
     background-repeat: no-repeat;
 padding: 4.5% 0 5% 0;
 position: relative;
@@ -661,7 +661,7 @@ background-size: cover;
     right: 0;
     width: 22%;
     background-repeat: no-repeat;
-    background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/OurServices-group.png.webp);
+    background-image: url(../../assets/images/uploads/2023/07/OurServices-group.png.webp);
     background-size: cover;
     z-index: -1;
 }
@@ -787,7 +787,7 @@ background-size: cover;
 .serve_industries_item:hover{
     width: 30%;
 } .awarded_certified_outer {padding: 4% 0 0 0;
-      background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/awared-bg.png.webp);
+      background-image: url(../../assets/images/uploads/2023/07/awared-bg.png.webp);
     background-repeat: no-repeat;
   background-size: cover;
     position: relative;
@@ -847,7 +847,7 @@ background: #f95408;
     display: block;
 }
  .tabbing_services_section {padding: 4% 0;
-      background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/tabbing-bg.png.webp);
+      background-image: url(../../assets/images/uploads/2023/07/tabbing-bg.png.webp);
     background-repeat: no-repeat;
   background-size: cover;
     position: relative;
@@ -941,7 +941,7 @@ background: #f95408;
     vertical-align: middle;
     padding: 0 0 0 0px;
 }
-.our_work_speaks_inner{   /* background-image: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Our-Work-Speaks-bg.png.webp);
+.our_work_speaks_inner{   /* background-image: url(../../assets/images/uploads/2023/07/Our-Work-Speaks-bg.png.webp);
     background-repeat: no-repeat;
   background-size: cover;
     position: relative;
@@ -1572,23 +1572,23 @@ background: transparent;
     background: #3b5998;
 }
 .our_servics_list ul li .our_servics_hover1:hover img {
-    content: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Our-Services-icon-1.png);
+    content: url(../../assets/images/uploads/2023/07/Our-Services-icon-1.png);
 }
 .our_servics_list ul li .our_servics_hover2:hover img {
-    content: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Our-Services-icon-2.png);
+    content: url(../../assets/images/uploads/2023/07/Our-Services-icon-2.png);
 }
 .our_servics_list ul li .our_servics_hover3:hover img {
-    content: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Our-Services-icon-3.png);
+    content: url(../../assets/images/uploads/2023/07/Our-Services-icon-3.png);
 }
 .our_servics_list ul li .our_servics_hover4:hover img {
-    content: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Our-Services-icon-4.png);
+    content: url(../../assets/images/uploads/2023/07/Our-Services-icon-4.png);
 }
 .our_servics_list ul li .our_servics_hover5:hover img {
-    content: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Our-Services-icon-5.png);
+    content: url(../../assets/images/uploads/2023/07/Our-Services-icon-5.png);
 }
 .our_servics_list ul li .our_servics_hover6:hover img {
-/*    content: url(/Sawariya-Solution-Rewamp/assets/images/uploads/2023/07/Our-Services-icon-6.png);*/
-content: url(/Sawariya-Solution-Rewamp/assets/images/theme/images/aigroupho.png); 
+/*    content: url(../../assets/images/uploads/2023/07/Our-Services-icon-6.png);*/
+content: url(../../assets/images/theme/images/aigroupho.png); 
 }
 .stricklyfixed .toogle-icon-mu {
     color: #000;
