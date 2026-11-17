@@ -2,7 +2,7 @@
 
 A responsive, multi-page company website for **Sawariya Solution** — a web & mobile app development company based in Vadodara, Gujarat, India.
 
-I built this as part of my software development internship. My mentor asked me to put together a complete, modern marketing website for the company using plain front-end technologies (no CMS, no page builder) and take it all the way to a working live link. This repo is the result.
+A student project from my software development internship at Sawariya Solution (2026). My mentor asked me to put together a marketing website for the company using plain front-end technologies (no CMS, no page builder) and get it to a working live link. This repo is the result.
 
 🔗 **Live site:** https://anime123450.github.io/Sawariya-Solution-Rewamp/
 
@@ -18,19 +18,19 @@ I built this as part of my software development internship. My mentor asked me t
 
 The brief from my mentor was simple to say but had a lot in it: *"build the company site, keep it consistent, keep it clean, and get it live."*
 
-So the whole thing is static — just **HTML, CSS and JavaScript** — which keeps it fast, easy to host, and dependency-free. There's no backend and no build step; what you see in the repo is exactly what ships.
+So the whole thing is static — just **HTML, CSS and JavaScript** — which keeps it easy to host and dependency-free. There's no backend and no build step; what you see in the repo is exactly what ships.
 
 Some of the things I focused on while building it:
 
 - **One consistent header and footer on every page** so navigation feels the same no matter where you land.
 - **A single font family across the whole site** (Jost) for a clean, uniform look.
-- **Fully responsive** layouts that hold up from large desktops down to phones.
+- **Responsive** layouts for screens from large desktops down to phones.
 - **Self-hosted fonts and assets** so nothing depends on an external font service loading.
 - Getting it **live on GitHub Pages** and making sure every internal link, image and asset resolves correctly on the hosted subpath.
 
 ## ✨ Features
 
-- 🖥️ **Modern, animated landing page** with a dark hero section and gradient accents
+- 🖥️ **Animated landing page** with a dark hero section and gradient accents
 - 🧭 **Sticky navigation** that stays pinned while you scroll
 - 📱 **Responsive design** — mobile, tablet and desktop
 - 🗂️ **Large multi-page site** — home, about, services, case studies, blog, contact, plus dedicated service/technology landing pages
@@ -133,7 +133,7 @@ The site is deployed with **GitHub Pages** from the `main` branch (root folder).
 
 ## 🙏 Acknowledgements
 
-Big thanks to my internship mentor for the guidance, the design feedback, and for reviewing the work along the way. A lot of the polish — consistent header/footer, unified typography, and the smaller CSS fixes — came directly from that feedback.
+Thanks to my internship mentor for the guidance, the design feedback, and for reviewing the work along the way. Many of the fixes — consistent header/footer, unified typography, and the smaller CSS fixes — came directly from that feedback.
 
 ## 👤 Author
 
